@@ -5,7 +5,6 @@ import Thumbnail from '@/components/Thumbnail';
 import { Separator } from '@/components/ui/separator';
 import { getFiles, getTotalFilesUsed } from '@/lib/actions/file.actions'
 import { convertFileSize, getUsageSummary } from '@/lib/utils';
-import { Files } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { Models } from 'node-appwrite';
